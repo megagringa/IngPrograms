@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+	background: url("../img/web.jpg");
+	background-attachment: fixed;
+}
+
+
+
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color:#fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rosybrown;
+}
+nav{
+    background: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; 
+}
+.nav-boton{
+    background: salmon;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+}
+
+#sidebar{
+	font-family: Helvetica, Arial;
+	width: 31%;
+    float: right;
+    margin-top: 25px;
+}
+
+#sidebar h4{
+	margin-top: 50px;
+	margin-bottom:20px;
+	text-align: left;
+	line-height: 10px;
+    color: salmon;
+}
+
+#sidebar h4 span{
+    padding: 5px;
+    color: black;
+    margin-bottom: 32px;
+    background: rgba(51, 51, 51, 0.70);
+}
+
+#sidebar img{
+	width: 50%;
+}
+
+#sidebar p{
+	font-size: 15px;
+    text-align: left;
+    color: black;
+    margin-bottom: 32px;
+    background: rgba(51, 51, 51, 0.70);
+}
+
+.main{
+    margin-top: 60px;
+    padding-left: 20px;
+}
+
+.main .titulo{
+    margin: 0;
+    color: black;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 46px;
+}
+
+.main p{
+    margin: 16px 0 36px 0;
+    color:black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+footer {
+	font-family: Helvetica, Arial;
+	color:salmon;
+	height: 47px;
+	background: rgba(51, 51, 51, 0.70);
+	margin:0px auto;
+	width: 65%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 190px;
+    line-height: 47px;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 320px ){
+    #sidebar h4 span{
+        
+    margin-left: -200px;
+        }
+
+        #sidebar img{
+            margin-left: -200px;
+        }
+
+        #sidebar p{
+            margin-left: -200px;
+        }
+
+    footer{
+        padding-left: 10px;
+        font-size: 2px;
+    }
+}
+
+
+@media (max-width: 360px ){
+
+    #sidebar h4 span{
+        height: 10px;
+        font-size: 15px;
+        }
+
+    footer{
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 900px ) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+
+  
+    #sidebar{
+        
+        margin-left: 50px;
+    }
+
+    #about{
+        margin-right:5px;
+    }
+
+    .main{
+        
+        padding-left: 25px;
+    }
+
+    
+    
+}
+
+@media (min-width: 900px ){
+
+    footer{
+        padding-left: 350px;
+    }
+}
