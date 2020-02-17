@@ -25,7 +25,7 @@ nav{
     
 }
 .nav-boton{
-    background: black;
+    background: green;
     color: white;
     padding: 10px 0;
     border: 2px solid #fff;
@@ -52,7 +52,7 @@ nav{
 
 .main p{
     margin: 16px 0 36px 0;
-    color:grey;
+    color:white;
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
