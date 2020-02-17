@@ -2,14 +2,13 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    background: green;
     
 }
 
 .nav-enlace{
     display: inline-block;
-    background: green;
-    color:white;
+    background: lightblue;
+    color:grey;
     padding: 10px 30px;
     text-decoration: none;
     
@@ -25,8 +24,8 @@ nav{
     
 }
 .nav-boton{
-    background: green;
-    color: white;
+    background: lightblue;
+    color: grey;
     padding: 10px 0;
     border: 2px solid #fff;
     display: none;
@@ -43,7 +42,7 @@ nav{
 
 .main .titulo{
     text-align: center;
-    color: white;
+    color: grey;
     font-size: 40px;
     font-weight: 200;
     line-height: 46px;
@@ -52,7 +51,7 @@ nav{
 
 .main p{
     margin: 16px 0 36px 0;
-    color:white;
+    color:grey;
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
