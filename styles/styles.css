@@ -13,12 +13,12 @@
     padding: 10px 30px;
     text-decoration: none;
     transition: color 4s;
-    transform: 4s;
+    
 }
 .nav-enlace:hover{
     background: rosybrown;
     color: black;
-    transform: scale(1.2);
+    
 }
 
 
