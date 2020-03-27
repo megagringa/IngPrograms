@@ -1,8 +1,8 @@
-# # Sitio Web "WebSide".
+# # Sitio Web simple.
 
 ### [Inicio](https://megagringa.github.io/IngPrograms/index.html)
 
-Página de inicio que une con los de más repositorios
+Una vista una página web simple.
 
 ## Lenguajes y tecnologías.
 
@@ -11,5 +11,4 @@ Página de inicio que une con los de más repositorios
     - CSS
     - JS
 
-El objetivo es crear un menu e ir uniendo los proyectos(repositorios) que ire subiendo. 
-Utilizando la modalidad Mobile First para que pueda ser observado en cualquier dispositivo.
+El objetivo era armar un vistaso de una pagina web simple, y su vez tenga mobile first para diferentes dispositivos.
